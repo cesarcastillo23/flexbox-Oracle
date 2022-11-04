@@ -1,0 +1,20 @@
+.ruta__lista__titulo {
+	font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+.ruta__lista__titulo--backend{
+  color: #25D285; border-left: 4px solid #25D285;
+}
+.ruta__lista__titulo--frontend{
+  color: #5EC6F3; border-left: 4px solid #5EC6F3;
+}
+.ruta__lista__titulo--framework{
+  color: #AD85BF; border-left: 4px solid #AD85BF;
+}
+.ruta__lista__titulo--bancoDeDatos{
+  color: #EC6E5A; border-left: 4px solid #EC6E5A;
+}

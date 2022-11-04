@@ -1,0 +1,11 @@
+.cursos__titulo {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+@media(min-width: 769px) {
+	.cursos__titulo {
+		text-align: left;
+	}
+}

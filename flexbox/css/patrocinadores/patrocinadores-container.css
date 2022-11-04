@@ -1,0 +1,12 @@
+.patrocinadores__container {
+	width: 94%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+@media screen and (min-width:350px)and (max-width:769px){
+	.patrocinadores__container{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+}

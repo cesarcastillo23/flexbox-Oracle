@@ -1,0 +1,12 @@
+.patrocinadores__lista{
+  display: flex;
+  align-items: center;
+  width: 75%;
+  justify-content:space-around;
+}
+@media screen and (min-width:350px)and (max-width:769px){
+	.patrocinadores__lista{
+		margin: auto;
+    width: 100%;
+	}
+}

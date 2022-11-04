@@ -1,0 +1,44 @@
+.contacto__formulario--legend{
+	margin-bottom: 10px;
+}
+.contacto__formulario--fieldset{
+display: flex;
+}
+.contacto__formulario--emailInput{
+  border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+  outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.contacto__formulario--submit{
+  outline: 0;
+	background:#4DBA7A;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.contacto__container label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+@media screen and (min-width:350px)and (max-width:769px){
+	.contacto__formulario--fieldset{
+		justify-content: center;
+	
+	}
+}
+@media(min-width: 769px) {
+	
+	.contacto__container {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	
+}

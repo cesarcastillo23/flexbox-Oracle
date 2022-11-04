@@ -1,0 +1,17 @@
+.videoSobre__container {
+	color: #FFF;
+	width: 65%;
+	margin: auto;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-shrink:3;
+}
+@media screen and (min-width:350px)and (max-width:769px){
+	.videoSobre__container {
+		flex-direction: column;
+		width: 100%;
+	
+	
+	}
+}

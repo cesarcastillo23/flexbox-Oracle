@@ -1,0 +1,12 @@
+.contacto__container {
+	margin-top: 20px;
+	text-align: center;
+	width: 25%;
+}
+@media screen and (min-width:350px)and (max-width:769px){
+	.contacto__container{
+		margin:20px auto;
+
+    width: 100%;
+	}
+}
